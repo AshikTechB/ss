@@ -1,1 +1,1 @@
-# Library-Management-System
+# Student-Management-System
