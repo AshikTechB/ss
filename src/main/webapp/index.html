@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" src="login.css" type="text/css">
+<title>Welcome, Login here</title>
+</head>
+<body>
+
+<h2>Student Login Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    <div class="container">
+      <label for="ID"><b>Student ID</b></label>
+      <input type="text" placeholder="Enter Student ID" name="Student ID" required>
+
+      <label for="Name"><b>Name</b></label>
+      <input type="text" placeholder="Enter FullName" name="Name" required>
+
+      <label for="Date of Admision"><b>Date of Admission</b></label>
+      <input type="text" placeholder="dd/mm/yyyy" name="dd/mm/yyyy" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+</div>
+
+
+</body>
+</html>
